@@ -27,8 +27,8 @@ This is only an practice exercice for improve my style abilities with html and c
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/GustavoMunizBarrios/QR-code-)
-- Live Site URL: [Add live site URL here](https://qr-code-one-delta.vercel.app/)
+- Solution URL: [Gitub](https://github.com/GustavoMunizBarrios/QR-code-)
+- Live Site URL: [URL site here](https://qr-code-one-delta.vercel.app/)
 
 ## My process
 First I made the structure of the QR card and then I add styles with CSS 
@@ -46,9 +46,9 @@ I learned to use flexbox in a better way and I aplicated the root to my file
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Not site yet](https://www.your-site.com)
+- Frontend Mentor - [@GustavoMunizBarrios](https://www.frontendmentor.io/profile/GustavoMunizBarrios)
+
 
 
 
