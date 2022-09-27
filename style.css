@@ -1,19 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'outfit', sans-serif;
+    background-color: var(--Light-gray);
+}
 :root {
-    --White: hsl(0, 0%, 100%)
-    --Light-gray: hsl(212, 45%, 89%)
-    --Grayish-blue: hsl(220, 15%, 55%)
-    --Dark-blue: hsl(218, 44%, 22%)
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container {
-    width: 350px;
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    /* border: 1px solid var(--Light-gray); */
+    margin-top: 40px;
+    border-radius: 20px;
+
 
 }
 .container img {
-    width: 300px;
+    width: 296px;
     border-radius: 11px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+}
+.container .principal p {
+    width: 260px;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--Dark-blue);
+    margin-bottom: 16px;
+}
+
+.container .secondary p {
+    width: 260px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--Grayish-blue);
+    margin-bottom: 35px;
 }
 
 
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
